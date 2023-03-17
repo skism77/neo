@@ -10,4 +10,4 @@ curl localhost:8080/version
 
 kubectl exec pod-name -c container-name -- ifconfig eth0
 
-
+kubectl get all -n monitoring
